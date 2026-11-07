@@ -51,13 +51,13 @@ export default function About() {
             >
               <div className="aspect-[4/5] bg-slate-100 overflow-hidden rounded-sm shadow-2xl relative z-10 border-[16px] border-white">
                 <img 
-                  src="/src/assets/images/industrial_equipment_showcase_1794045178057.jpg" 
+                  src="/assets/images/industrial_equipment_showcase_1794045178057.jpg" 
                   alt="Good Guys Co. Fleet" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
                 />
               </div>
               <div className="absolute -top-12 -right-12 w-64 h-64 bg-orange-500/5 -z-0 border border-orange-500/10" />
-              <div className="absolute -bottom-8 -left-8 w-40 h-40 bg-blue-600 -z-10 rounded-sm" />
+              <div className="absolute -bottom-8 -left-8 w-40 h-40 bg-orange-500 -z-10 rounded-sm" />
             </motion.div>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function About() {
               A PARTNERSHIP BUILT <br />
               <span className="text-orange-500">ON THE TRADE.</span>
             </h2>
-            <div className="w-24 h-2 bg-blue-600 mx-auto" />
+            <div className="w-24 h-2 bg-orange-500 mx-auto" />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
@@ -119,12 +119,12 @@ export default function About() {
             <div className="order-2 lg:order-1">
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-6">
-                  <img src="/src/assets/images/cipp_pipe_lining_1794045178085.jpg" alt="Field Work" className="rounded-sm aspect-square object-cover grayscale" />
-                  <img src="/src/assets/images/hydro_jetting_1794045177206.jpg" alt="Field Work" className="rounded-sm aspect-[3/4] object-cover grayscale" />
+                  <img src="/assets/images/cipp_pipe_lining_1794045178085.jpg" alt="Field Work" className="rounded-sm aspect-square object-cover grayscale" />
+                  <img src="/assets/images/hydro_jetting_1794045177206.jpg" alt="Field Work" className="rounded-sm aspect-[3/4] object-cover grayscale" />
                 </div>
                 <div className="space-y-6 pt-12">
-                  <img src="/src/assets/images/sewer_camera_inspection_1794045178029.jpg" alt="Field Work" className="rounded-sm aspect-[3/4] object-cover grayscale" />
-                  <img src="/src/assets/images/mechanical_descaling_1794045177740.jpg" alt="Field Work" className="rounded-sm aspect-square object-cover grayscale" />
+                  <img src="/assets/images/sewer_camera_inspection_1794045178029.jpg" alt="Field Work" className="rounded-sm aspect-[3/4] object-cover grayscale" />
+                  <img src="/assets/images/mechanical_descaling_1794045177740.jpg" alt="Field Work" className="rounded-sm aspect-square object-cover grayscale" />
                 </div>
               </div>
             </div>

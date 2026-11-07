@@ -8,28 +8,28 @@ const SERVICES = [
     title: 'CIPP Pipe Lining',
     desc: 'Trenchless rehabilitation that restores structural integrity without excavation.',
     icon: Shield,
-    image: '/src/assets/images/cipp_pipe_lining_1794045178085.jpg',
+    image: '/assets/images/cipp_pipe_lining_1794045178085.jpg',
   },
   {
     id: 'hydro',
     title: 'Hydro Jetting',
     desc: 'High-pressure water cleaning to remove grease, debris, and hardened buildup.',
     icon: Droplets,
-    image: '/src/assets/images/hydro_jetting_1794045177206.jpg',
+    image: '/assets/images/hydro_jetting_1794045177206.jpg',
   },
   {
     id: 'descale',
     title: 'Mechanical Descaling',
     desc: 'Precision removal of corrosion and scale from aged pipe interiors.',
     icon: Tool,
-    image: '/src/assets/images/mechanical_descaling_1794045177740.jpg',
+    image: '/assets/images/mechanical_descaling_1794045177740.jpg',
   },
   {
     id: 'camera',
     title: 'Sewer Camera Inspections',
     desc: 'High-definition diagnostic visibility to pinpoint issues before they escalate.',
     icon: Camera,
-    image: '/src/assets/images/sewer_camera_inspection_1794045178029.jpg',
+    image: '/assets/images/sewer_camera_inspection_1794045178029.jpg',
   },
 ];
 
@@ -59,7 +59,7 @@ export default function Home() {
         {/* Full-size Photo Background - Clear, properly fitted, completely natural */}
         <div className="absolute inset-0 z-0 bg-neutral-950">
           <img 
-            src="/src/assets/images/cinematic_trenchless_hero_1794046173655.jpg" 
+            src="/assets/images/cinematic_trenchless_hero_1794046173655.jpg" 
             alt="Good Guys Co. Specialized Underground Sewer & Trenchless Operations" 
             className="w-full h-full object-cover object-center"
           />
@@ -149,7 +149,7 @@ export default function Home() {
             >
               <div className="aspect-[4/5] overflow-hidden rounded-sm bg-slate-100 shadow-2xl relative z-10 border-[12px] border-white">
                 <img 
-                  src="/src/assets/images/industrial_equipment_showcase_1794045178057.jpg" 
+                  src="/assets/images/industrial_equipment_showcase_1794045178057.jpg" 
                   alt="Good Guys Co. Fleet" 
                   className="w-full h-full object-cover"
                 />
