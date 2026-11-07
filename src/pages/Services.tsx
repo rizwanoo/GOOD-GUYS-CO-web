@@ -19,7 +19,7 @@ const SERVICE_DETAILS = [
       'Minimizes property disruption',
       'Optimal flow coefficient increase'
     ],
-    image: '/src/assets/images/cipp_pipe_lining_1794045178085.jpg',
+    image: '/assets/images/cipp_pipe_lining_1794045178085.jpg',
     icon: Shield,
     color: 'border-orange-500'
   },
@@ -39,9 +39,9 @@ const SERVICE_DETAILS = [
       'Prevents future accumulation',
       'Critical for CIPP preparation'
     ],
-    image: '/src/assets/images/hydro_jetting_1794045177206.jpg',
+    image: '/assets/images/hydro_jetting_1794045177206.jpg',
     icon: Droplets,
-    color: 'border-blue-600'
+    color: 'border-neutral-700'
   },
   {
     id: 'descale',
@@ -59,7 +59,7 @@ const SERVICE_DETAILS = [
       'Prevents snag-related clogs',
       'Alternative to full replacement'
     ],
-    image: '/src/assets/images/mechanical_descaling_1794045177740.jpg',
+    image: '/assets/images/mechanical_descaling_1794045177740.jpg',
     icon: Tool,
     color: 'border-slate-500'
   },
@@ -79,7 +79,7 @@ const SERVICE_DETAILS = [
       'Pre- & Post-work verification',
       'Cloud-accessible reporting'
     ],
-    image: '/src/assets/images/sewer_camera_inspection_1794045178029.jpg',
+    image: '/assets/images/sewer_camera_inspection_1794045178029.jpg',
     icon: Camera,
     color: 'border-orange-600'
   }
@@ -91,7 +91,7 @@ export default function Services() {
       {/* Header */}
       <section className="bg-slate-950 py-32 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <img src="/src/assets/images/industrial_equipment_showcase_1794045178057.jpg" alt="Background" className="w-full h-full object-cover grayscale" />
+          <img src="/assets/images/industrial_equipment_showcase_1794045178057.jpg" alt="Background" className="w-full h-full object-cover grayscale" />
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
